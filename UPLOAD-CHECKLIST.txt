@@ -1,0 +1,37 @@
+Pop!_OS 24.04 WSL Base 0.1.1 - GitHub Upload Checklist
+======================================================
+
+Suggested tag:
+  v0.1.1
+
+Suggested release title:
+  Pop!_OS 24.04 WSL Base 0.1.1
+
+Required / recommended assets:
+  [ ] Pop_OS-24.04-WSL-Base-0.1.1-x86_64.wsl
+  [ ] SHA256SUMS
+  [ ] MANIFEST.txt
+  [ ] README.md
+  [ ] CHANGELOG.md
+  [ ] build-pop-os-wsl-0.1.1.sh
+
+Optional assets:
+  [ ] README.txt
+  [ ] Pop_OS-24.04-WSL-Base-0.1.1-x86_64-rootfs.tar.gz
+
+Note:
+  The .wsl and rootfs.tar.gz artifacts are intentionally byte-identical.
+  Uploading both duplicates roughly the same large file. The .wsl file is the
+  recommended public installation asset.
+
+Before publishing:
+  [ ] Run: sha256sum -c SHA256SUMS
+  [ ] Confirm MANIFEST.txt contains the exact OCI source image digest.
+  [ ] Confirm a clean install reports: pop-wsl doctor -> Status: READY
+  [ ] Confirm: systemctl --failed --no-pager -> 0 loaded units listed.
+  [ ] Confirm: cmd.exe /c ver -> Windows interop works.
+  [ ] Confirm no desktop environment is included.
+  [ ] Confirm README does not describe this as an official System76 image.
+
+Suggested GitHub release body:
+  Use RELEASE_NOTES-0.1.1.md
