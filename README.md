@@ -185,7 +185,7 @@ This is a **community WSL build**. The OCI rootfs source used by this builder is
 
 Pop!_OS and System76 names and marks belong to their respective owners. This project is not affiliated with or endorsed by System76.
 
-POP_OS_LTS 24.04 and UKUI desktop - What you can build =
+POP_OS_LTS 24.04 and UKUI desktop - What you can build via POP_OS 24.04 LTS =]
 
 <img width="1920" height="1080" alt="POP-OS-UKUI" src="https://github.com/user-attachments/assets/dfe127da-e898-4b1e-8643-dc75de00f1a6" />
 
