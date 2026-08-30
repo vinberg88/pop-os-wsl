@@ -1,4 +1,4 @@
-# Pop!_OS 24.04 WSL Base
+# Pop!_OS 24.04 WSL Base - Look for more stuff here - https://github.com/vinberg88
 
 A minimal, desktop-free **Pop!_OS 24.04 LTS** distribution for **Windows Subsystem for Linux 2 (WSL2)**.
 
@@ -182,3 +182,12 @@ wsl --unregister Pop_OS-24.04
 This is a **community WSL build**. The OCI rootfs source used by this builder is `ghcr.io/aldpuzz/pop_os:latest`; it is not presented as an official System76 WSL image. The builder validates that the source identifies itself as Pop!_OS 24.04 / Noble and verifies the expected Pop!_OS repository entries before packaging.
 
 Pop!_OS and System76 names and marks belong to their respective owners. This project is not affiliated with or endorsed by System76.
+
+POP_OS_LTS 24.04 and UKUI desktop - What you can build =
+
+<img width="1920" height="1080" alt="POP-OS-UKUI" src="https://github.com/user-attachments/assets/dfe127da-e898-4b1e-8643-dc75de00f1a6" />
+
+Regards,
+Mattias Vinberg - Stockholm - Sweden
+
+
