@@ -1,4 +1,6 @@
-# Pop!_OS 24.04 WSL Base - Look for more stuff here - https://github.com/vinberg88
+# Pop!_OS 24.04 LTS WSL Base
+
+Look for more stuff here for WSL - https://github.com/vinberg88
 
 A minimal, desktop-free **Pop!_OS 24.04 LTS** distribution for **Windows Subsystem for Linux 2 (WSL2)**.
 
