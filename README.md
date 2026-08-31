@@ -189,11 +189,12 @@ POP_OS_LTS 24.04 and UKUI desktop - Example - What you can build via POP_OS 24.0
 
 <img width="1920" height="1080" alt="POP-OS-UKUI" src="https://github.com/user-attachments/assets/dfe127da-e898-4b1e-8643-dc75de00f1a6" />
 
-Find desktop for POP OS 24.04 LTS 
+Find desktops for POP OS - https://system76.com/support/desktop-environment/?srsltid=AfmBOopBpGztI6SGcqpBQA9rybT5xmL63RiZeTUaWmMLcuzs4mI8AxmF
 
-https://system76.com/support/desktop-environment/?srsltid=AfmBOopBpGztI6SGcqpBQA9rybT5xmL63RiZeTUaWmMLcuzs4mI8AxmF
+How to install BUDGIE desktop via POP_OS 24.04 - https://github.com/vinberg88/opensuse/blob/main/POP-OS-BUDGIE.txt
+
+<img width="1920" height="1080" alt="POP-OS-BUDGIE" src="https://github.com/user-attachments/assets/955a145f-0338-45ff-b743-e68fa27aa160" />
+
 
 Regards,
 Mattias Vinberg - Stockholm - Sweden
-
-
