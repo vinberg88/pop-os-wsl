@@ -1,0 +1,416 @@
+POP OS 24.04 LTS and UKUI - Install UKUI via POP_OS 24.04 and WSL - Windows 11 - Linux - X410 - YouTUBE - 2026
+
+Download POP_OS 24.04 LTS - WSL image via GitHUB: https://github.com/vinberg88/pop-os-wsl
+
+How to install UKUI / Kylin desktop via POP_OS 24.04 LTS - WSL - TEXT via GITHUB
+COMMING SONE..
+
+How to install UKUI / Kylin desktop via POP_OS 24.04 LTS - WSL - MOVIE via YouTUBE
+https://www.youtube.com/watch?v=ZFCV_dkOtgg
+
+Tools that i use for WSL and POP_OS 24.04 LTS - 2026 - UKUI / KYLIN
+
+X410 - Xserver for windows 11 - So you have a Desktop TO See in Windows 11.
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL image easy and Linux for WSL for windows 11.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+             /////////////                 Thank you for install UKUI and POP_OS 24.04 LTS - WSL - ❤️
+         /////////////////////
+      ///////*767////////////////          OS: Pop!_OS 24.04 LTS x86_64
+    //////7676767676*//////////////
+   /////76767//7676767//////////////       Host: Windows Subsystem for Linux - Pop_OS_24.04 (2.9.9.0)
+  /////767676///*76767///////////////
+ ///////767676///76767.///7676*///////     Kernel: Linux 6.18.40.1-microsoft-standard-WSL2
+/////////767676//76767///767676////////
+//////////76767676767////76767/////////    FIND ME HERE - https://github.com/vinberg88
+///////////76767676//////7676//////////
+////////////,7676,///////767///////////    EMAIL: mattiasvinberg@duck.com
+/////////////*7676///////76////////////
+///////////////7676////////////////////    OS: Windows 11 Pro for Workstations (25H2) x86_64
+ ///////////////7676///767////////////
+  //////////////////////'////////////      Windows 11 - WSLg - We have sound =)
+   //////.7676767676767676767,//////
+    /////767676767676767676767/////        Download POP_OS 24.04 LTS - WSL image: https://github.com/vinberg88/pop-os-wsl
+      ///////////////////////////          
+         /////////////////////             Liunx Desktop - UKUI - KYLIN - POP_OS 24.04 LTS
+             /////////////                 
+
+About POP_OS 24.04 LTS - https://system76.com - 2026
+
+Unleash your potential on a Linux operating system made to be
+productive and personal. Pop!_OS is designed to remove obstacles
+from your plate. Updates are fast and flexible to your
+schedule, apps and windows respond quickly to your
+actions, and multi-monitor use feels intuitive and smooth.
+Pop!_OS enables the working environments you need to stay focused 
+and thrive — from navigational features to visual elements.
+Empower teams with vastly different preferences and technical 
+experience across the same systems. PopOS is build on UBUNTU.
+
+About UKUI / KYLIN DESKTOP - https://www.ukui.org/index.php?lang=en
+
+Kylin / UKUI is a beautiful Linux desktop system optimized
+for Chinese users. Since its creation in 2013, the Kylin
+open source operating system has released 20 - UKUI -
+versions, downloaded more than 32 million times, contributed
+millions of lines of code and over 7400 patches to the open source
+community, and has been accepted by international open source
+communities such as Linux, Debian, Ubuntu, OpenStack, and Ceph.
+For now, we have hundreds of thousands of active users worldwide.
+
+More about WSL - https://github.com/vinberg88/opensuse or https://github.com/vinberg88
+
+--------------------------------------------
+
+TIME TO START INSTALL OF POP_OS 24.04 LTS AND UKUI / KYLIN DESKTOP FOR WSL - 2026
+
+--------------------------------------------
+
+Download POP_OS 24.04 LTS from GitHUB: https://github.com/vinberg88/pop-os-wsl
+
+Press on the Blue Icon that we downloded from GitHUB. That will setup all. User and Password...
+
+AFTER INSTALL RUN THIS IN TERMINAL: pop-wsl doctor
+
+YOU WILL SEE SOMETHING LIKE THIS - GO TO NEXT STEP =)
+
+--------------------------------------------
+   Pop!_OS 24.04 WSL Base 0.1.1
+============================================
+Distribution:          Pop!_OS 24.04 LTS
+Kernel:                6.18.40.1-microsoft-standard-WSL2
+WSL:                   yes
+WSLg:                  yes
+Windows interop:       OK
+PID 1:                 systemd
+systemd:               running
+User systemd:          running
+User D-Bus:            OK
+Failed units:          0
+User:                  adolf
+UID:                   1000
+Locale:                en_US.UTF-8
+Timezone:              Europe/Stockholm
+DNS:                   OK
+Root filesystem:       ext4
+Pop!_OS repositories:  OK
+Desktop:               not installed
+
+Status:                READY
+
+--------------------------------------------
+
+Update Pop OS 24.04 LTS to latest version
+
+sudo apt update
+sudo apt upgrade
+
+--------------------------------------------
+
+FIX DBUS PROBLEM SO Pop_OS 24.04 LTS IS FASTER.
+
+sudo apt install dbus systemd-boot* systemd dbus-broker* dbus-daemon* systemd-resolved* systemd-u* systemd-ukify* dialog rsync
+
+sudo systemctl disable dbus-broker
+sudo systemctl enable dbus
+sudo mkdir -p /run/dbus
+sudo chown messagebus:messagebus /run/dbus
+
+--------------------------
+
+REBOOT POPOS 24.04 LTS - REBOOT POP OS 24.04 LTS - POP_OS 24.04 LTS - REBOOT POP OS 24.04 LTS
+
+--------------------------
+
+Next install UKUI / KYLIN Desktop for REBOOT POP_OS 24.04 LTS - WSL - UKUI - 2026
+
+sudo apt install ukui-desktop-environment
+
+sudo apt install libukui* ukui* gdm* xorg* x11* synaptic* 
+
+SELECT GDM3 IF YOU ARE ASKED UNDER INSTALL.
+
+sudo apt install qt5* qt6* peony* kylin* ffmpeg-doc vcdimager
+
+sudo apt install gtk* labwc xwayland bubblewrap dbus-user-session dbus-x11 xdg-desktop-portal xdg-desktop-portal-gtk org* glib*
+
+--------------------------
+
+Install some basic programs - UKUI - POP OS 24.04 LTS
+
+sudo apt install bash git npm wget curl pipx dracut software-properties-common* -y
+sudo apt install daemonize* -y
+
+Select GDM in terminal under install if you are asked.
+
+--------------------------------------------
+
+Install wallpapers for POP_OS 24.04 LTS - 2026
+
+sudo apt-add-repository -ys ppa:system76-dev/stable
+sudo apt update
+sudo apt install -y system76-wallpapers 
+
+--------------------------------------------
+
+Time to install Fastfetch for POP OS 24.04 LTS
+
+wget https://github.com/fastfetch-cli/fastfetch/releases/download/2.67.1/fastfetch-linux-amd64.deb
+sudo apt install ./fastfetch-linux-amd64.deb
+
+Restart terminal and type: fastfetch
+
+
+             /////////////                 Thank you for install UKUI and POP_OS 24.04 LTS - WSL - ❤️
+         /////////////////////
+      ///////*767////////////////          OS: Pop!_OS 24.04 LTS x86_64
+    //////7676767676*//////////////
+   /////76767//7676767//////////////       Host: Windows Subsystem for Linux - Pop_OS_24.04 (2.9.9.0)
+  /////767676///*76767///////////////
+ ///////767676///76767.///7676*///////     Kernel: Linux 6.18.40.1-microsoft-standard-WSL2
+/////////767676//76767///767676////////
+//////////76767676767////76767/////////    FIND ME HERE - https://github.com/vinberg88
+///////////76767676//////7676//////////
+////////////,7676,///////767///////////    EMAIL: mattiasvinberg@duck.com
+/////////////*7676///////76////////////
+///////////////7676////////////////////    OS: Windows 11 Pro for Workstations (25H2) x86_64
+ ///////////////7676///767////////////
+  //////////////////////'////////////      Windows 11 - WSLg - We have sound =)
+   //////.7676767676767676767,//////
+    /////767676767676767676767/////        Download POP_OS 24.04 LTS - WSL image: https://github.com/vinberg88/pop-os-wsl
+      ///////////////////////////          
+         /////////////////////             Liunx Desktop - UKUI - KYLIN - POP_OS 24.04 LTS
+             /////////////                 
+
+--------------------------------------------
+
+Install Google Chrome Browser - Perfect for POPOS 24.04 LTS and UKUI desktop - 2026
+
+curl -fsSL https://dl.google.com/linux/linux_signing_key.pub | sudo gpg --dearmor -o /usr/share/keyrings/google-chrome.gpg
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/google-chrome.gpg] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
+
+sudo apt update
+sudo apt install google-chrome-stable
+
+--------------------------------------------
+
+Install Blanket if you Want! - Listen to Sounds when you HACK - POP OS 24.04 LTS
+
+sudo add-apt-repository ppa:apandada1/blanket
+sudo apt update
+sudo apt install blanket
+
+--------------------------------------------
+
+Install ffmpeg, MPV and other stuff for MEDIA for POP_OS 24.04 LTS
+
+sudo apt install celluloid -y
+sudo apt install yt-dlp -y
+sudo apt install mpv-mpris -y
+sudo apt install mpv -y
+sudo apt install ffmpeg -y
+
+--------------------------------------------
+
+Install Gimp so you can PAINT for POP OS 24.04 LTS
+
+sudo apt install gimp gimp-data-extras -y
+
+--------------------------------------------
+
+POP_OS 24.04 LTS - Libre Office for UKUI / KYLIN DESKTOP
+
+sudo apt install libreoffice -y
+
+--------------------------------------------
+
+Install some MORE programs for POP OS 24.04 LTS and UKUI dekstop - 2026
+
+sudo apt install kwin* hunspell systemd-container systemd-homed wayland* mutter* policykit* gnome-power-manager xwayland* dbus-x11* mesa* weston*
+
+--------------------------------------------
+
+WE ARE SONE DONE - GOOD JOBE SO FAR FOR POP_OS 24.04 LTS.
+
+             /////////////                 Thank you for install UKUI and POP_OS 24.04 LTS - WSL - ❤️
+         /////////////////////
+      ///////*767////////////////          OS: Pop!_OS 24.04 LTS x86_64
+    //////7676767676*//////////////
+   /////76767//7676767//////////////       Host: Windows Subsystem for Linux - Pop_OS_24.04 (2.9.9.0)
+  /////767676///*76767///////////////
+ ///////767676///76767.///7676*///////     Kernel: Linux 6.18.40.1-microsoft-standard-WSL2
+/////////767676//76767///767676////////
+//////////76767676767////76767/////////    FIND ME HERE - https://github.com/vinberg88
+///////////76767676//////7676//////////
+////////////,7676,///////767///////////    EMAIL: mattiasvinberg@duck.com
+/////////////*7676///////76////////////
+///////////////7676////////////////////    OS: Windows 11 Pro for Workstations (25H2) x86_64
+ ///////////////7676///767////////////
+  //////////////////////'////////////      Windows 11 - WSLg - We have sound =)
+   //////.7676767676767676767,//////
+    /////767676767676767676767/////        Download POP_OS 24.04 LTS - WSL image: https://github.com/vinberg88/pop-os-wsl
+      ///////////////////////////          
+         /////////////////////             Liunx Desktop - UKUI - KYLIN - POP_OS 24.04 LTS
+             /////////////                 
+
+--------------------------------------------
+
+Paste in Terminal and Press enter - UKUI - 2026 - POPOS 24.04 LTS
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+--------------------------------------------
+
+POP OS 24.04 LTS - TYPE THIS IN TERMINAL AND PUT YOUR USERNAMN THERE.
+
+sudo loginctl enable-linger adolf
+
+--------------------------------------------
+
+MAKE THIS SMALL SCRIPT FOR POP_OS 24.04 LTS - 2026
+
+In terminal type: sudo nano ~/.bash_Debian_desktop
+
+Paste this small script in terminal and save and quit nano.
+
+export XDG_CURRENT_DESKTOP=ubuntu:GNOME
+export XDG_SESSION_DESKTOP=ubuntu
+export DESKTOP_SESSION=ubuntu
+export GNOME_SHELL_SESSION_MODE=ubuntu
+
+export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+export XDG_MENU_PREFIX=gnome-
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+--------------------------------------------
+
+Fix IP problem for X410. Cant find screen problem. Look for ip adress in windows terminal / PowerShell: ipconfig
+
+FIRST OPEN POWERSHELL AND TYPE: ipconfig
+
+Last lines are IP-number for WSL.
+
+SAVE IP HERE FOR WSL FROM POWERSHELL: 172.30.16.1
+
+GO BACK TO POPOS 24.04 LTS Terminal AND COPY AND PASTE THIS IN TERMINAL.
+
+sudo systemctl unmask systemd-resolved.service
+sudo systemctl enable systemd-resolved.service
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.30.16.1 <-- put your ip here from powershell and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed for POP OS 24.04 LTS  and UKUI desktop.
+
+------------------------------------------------------
+
+Install this last Tools for POP_OS 24.04 LTS AND UKUI.
+
+sudo apt install ukui-panel* ukui-media* pulseaudio-utils sound-theme-freedesktop audio* marco* pciutils gnome-terminal
+
+------------------------------------------------------
+
+DOWNLOAD THIS SCRIPT FÖR POP_OS 24.04 LTS AND UKUI - SO Desktop WILL START =]
+
+wget --https-only --timeout=30 --tries=3 -O /tmp/ubuntu-UKUI.sh https://www.xhamster.nu/swe/ubuntu-UKUI.sh
+
+----------------------------------------------------------------
+
+Now we must install scrip for UKUI / KYLIN desktop and POP OS 24.04 LTS
+
+Copy and paste in terminal =]
+
+sed -i 's/\r$//' /tmp/ubuntu-UKUI.sh
+bash -n /tmp/ubuntu-UKUI.sh && echo "Syntax OK"
+sudo mkdir -p ~/.local/bin
+sudo chown -R "$(id -un):$(id -gn)" ~/.local
+install -m 755 /tmp/ubuntu-UKUI.sh ~/.local/bin/ukui-x410
+ls -l ~/.local/bin/ukui-x410
+grep -qxF 'export PATH="$HOME/.local/bin:$PATH"' ~/.bashrc || echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+command -v ukui-x410
+
+NICE WORK - TIME FOR NEXT STEP FOR UKUI AND POP OS 24.04 LTS
+
+----------------------------------------------------------------
+
+Install Tasksel and select from menu in taskel: Debian Desktop Environment - and press enter when you run sudo taksel: 
+
+sudo apt install tasksel*
+
+sudo tasksel
+
+----------------------------------------------------------------
+
+REBOOT POPOS 24.04 LTS - REBOOT POP OS 24.04 LTS - POP_OS 24.04 LTS - REBOOT POP OS 24.04 LTS
+
+----------------------------------------------------------------
+
+Time to start UKUI Desktop via this lines - POP OS 24.04 LTS
+
+
+NOTE - START X410 AND NEXT START POP_OS 24.04 LTS TERMINAL
+
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Paste in terminal: . ~/.bash_Debian_desktop
+
+Type in terminal and start UkUI: dbus-launch ukui-x410
+
+
+Just wait when you start UKUI desktop via POPOS 24.04 LTS - UKUI - KYLIN WILL WORK WELL UNDER WSL.
+
+----------------------------------------------------------------
+
+Pop!_OS is a Linux distribution developed by System76, designed to provide a user-friendly and
+efficient operating system for both general users and professionals. It is based on Ubuntu and
+features a clean, modern interface with a focus on productivity and ease of use. Pop!_OS comes
+with built-in support for hybrid graphics, making it an excellent choice for gaming and creative
+work. It also includes a variety of pre-installed software and tools tailored for developers, 
+engineers, and creators, along with strong privacy and security features. The distribution
+is regularly updated and supported by an active community.
+
+             /////////////                 Thank you for install UKUI and POP_OS 24.04 LTS - WSL - ❤️
+         /////////////////////
+      ///////*767////////////////          OS: Pop!_OS 24.04 LTS x86_64
+    //////7676767676*//////////////
+   /////76767//7676767//////////////       Host: Windows Subsystem for Linux - Pop_OS_24.04 (2.9.9.0)
+  /////767676///*76767///////////////
+ ///////767676///76767.///7676*///////     Kernel: Linux 6.18.40.1-microsoft-standard-WSL2
+/////////767676//76767///767676////////
+//////////76767676767////76767/////////    FIND ME HERE - https://github.com/vinberg88
+///////////76767676//////7676//////////
+////////////,7676,///////767///////////    EMAIL: mattiasvinberg@duck.com
+/////////////*7676///////76////////////
+///////////////7676////////////////////    OS: Windows 11 Pro for Workstations (25H2) x86_64
+ ///////////////7676///767////////////
+  //////////////////////'////////////      Windows 11 - WSLg - We have sound =)
+   //////.7676767676767676767,//////
+    /////767676767676767676767/////        Download POP_OS 24.04 LTS - WSL image: https://github.com/vinberg88/pop-os-wsl
+      ///////////////////////////          
+         /////////////////////             Liunx Desktop - UKUI - KYLIN - POP_OS 24.04 LTS
+             /////////////                 
+
+                               
+Regards Mattias Vinberg - UKUI - KYLIN - POP_OS 24.04 LTS - WSL - X410 - Windows 11 - Linux - 2026 - SWEDEN
+
+----------------------------------------------------------------
