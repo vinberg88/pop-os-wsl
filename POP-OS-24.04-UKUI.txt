@@ -3,7 +3,7 @@ POP OS 24.04 LTS and UKUI - Install UKUI via POP_OS 24.04 and WSL - Windows 11 -
 Download POP_OS 24.04 LTS - WSL image via GitHUB: https://github.com/vinberg88/pop-os-wsl
 
 How to install UKUI / Kylin desktop via POP_OS 24.04 LTS - WSL - TEXT via GITHUB
-
+https://github.com/vinberg88/pop-os-wsl/blob/main/POP-OS-24.04-UKUI.txt
 
 How to install UKUI / Kylin desktop via POP_OS 24.04 LTS - WSL - MOVIE via YouTUBE
 https://www.youtube.com/watch?v=ZFCV_dkOtgg
