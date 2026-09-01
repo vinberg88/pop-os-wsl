@@ -1,6 +1,6 @@
 # Pop!_OS 24.04 LTS WSL Base
 
-<img width="800" height="520" alt="PoPOS" src="https://github.com/user-attachments/assets/745add75-2429-460c-8282-b3a8ca0cd0e1" />
+<img width="900" height="520" alt="PoPOS" src="https://github.com/user-attachments/assets/745add75-2429-460c-8282-b3a8ca0cd0e1" />
 
 
 Look for more stuff here for WSL - https://github.com/vinberg88
