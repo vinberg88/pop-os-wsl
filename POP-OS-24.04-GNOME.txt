@@ -3,7 +3,7 @@ POP OS AND GNOME - How to install GNOME via Pop_OS and Windows 11 - WSL - POP-OS
 Download POP_OS 24.04 LTS - WSL image via GitHUB: https://github.com/vinberg88/pop-os-wsl
 
 How to install GNOME via POP_OS 24.04 LTS - WSL - TEXT via GITHUB
-COMMING SONE..
+https://github.com/vinberg88/pop-os-wsl/blob/main/POP-OS-24.04-GNOME.txt
 
 How to install GNOME via POP_OS 24.04 LTS - WSL - MOVIE via YouTUBE
 https://www.youtube.com/watch?v=s9u44NF2eQk
