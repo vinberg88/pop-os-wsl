@@ -188,6 +188,10 @@ This is a **community WSL build**. The OCI rootfs source used by this builder is
 
 Pop!_OS and System76 names and marks belong to their respective owners. This project is not affiliated with or endorsed by System76.
 
+How to install GNOME dekstop - WSL - https://github.com/vinberg88/pop-os-wsl/blob/main/POP-OS-24.04-GNOME.txt
+
+<img width="1920" height="1080" alt="POP-OS-24 04-GNOME" src="https://github.com/user-attachments/assets/651027b2-8702-4027-8c59-7cc88d0aae0c" />
+
 How to install UKUI desktop - WSL - https://github.com/vinberg88/pop-os-wsl/blob/main/POP-OS-24.04-UKUI.txt
 
 <img width="1920" height="1080" alt="POP-OS-UKUI" src="https://github.com/user-attachments/assets/dfe127da-e898-4b1e-8643-dc75de00f1a6" />
