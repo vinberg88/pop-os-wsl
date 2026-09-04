@@ -3,7 +3,7 @@ POP_OS AND KDE - How to install KDE via Pop_OS and Windows 11 - WSL - POP-OS - X
 Download POP_OS 24.04 LTS - WSL image via GitHUB: https://github.com/vinberg88/pop-os-wsl
 
 How to install KDE via POP_OS 24.04 LTS - WSL - TEXT via GITHUB
-Comming SONE....
+https://github.com/vinberg88/pop-os-wsl/blob/main/Pop-OS-24.04-KDE.txt
 
 How to install KDE via POP_OS 24.04 LTS - WSL - MOVIE via YouTUBE
 https://www.youtube.com/watch?v=NySPn8W5TOo
