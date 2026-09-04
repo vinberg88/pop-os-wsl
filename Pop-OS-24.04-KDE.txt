@@ -1,0 +1,313 @@
+POP_OS AND KDE - How to install KDE via Pop_OS and Windows 11 - WSL - POP-OS - X410 - 2026 - YouTUBE
+
+Download POP_OS 24.04 LTS - WSL image via GitHUB: https://github.com/vinberg88/pop-os-wsl
+
+How to install KDE via POP_OS 24.04 LTS - WSL - TEXT via GITHUB
+Comming SONE....
+
+How to install KDE via POP_OS 24.04 LTS - WSL - MOVIE via YouTUBE
+https://www.youtube.com/watch?v=NySPn8W5TOo
+
+Tools that i use for WSL and POP_OS 24.04 LTS - 2026 - KDE desktop.
+
+X410 - Xserver for windows 11 - So you have a Desktop TO See in Windows 11.
+https://apps.microsoft.com/detail/9pm8lp83g3l3?hl=en-US&gl=US
+
+Raft WSL - Handel WSL image easy and Linux for WSL for windows 11.
+https://apps.microsoft.com/detail/9msmjqd017x7?hl=en-US&gl=US
+
+             /////////////                 Thank you for install KDE and POP_OS 24.04 LTS - WSL - ❤️
+         /////////////////////
+      ///////*767////////////////          OS: Pop!_OS 24.04 LTS x86_64
+    //////7676767676*//////////////
+   /////76767//7676767//////////////       Host: Windows Subsystem for Linux - Pop_OS_24.04 (2.9.9.0)
+  /////767676///*76767///////////////
+ ///////767676///76767.///7676*///////     Kernel: Linux 6.18.40.1-microsoft-standard-WSL2
+/////////767676//76767///767676////////
+//////////76767676767////76767/////////    FIND ME HERE - https://github.com/vinberg88
+///////////76767676//////7676//////////
+////////////,7676,///////767///////////    EMAIL: mattiasvinberg@duck.com
+/////////////*7676///////76////////////
+///////////////7676////////////////////    OS: Windows 11 Pro for Workstations (25H2) x86_64
+ ///////////////7676///767////////////
+  //////////////////////'////////////      Windows 11 - WSLg - We have sound =)
+   //////.7676767676767676767,//////
+    /////767676767676767676767/////        Download POP_OS 24.04 LTS - WSL image: https://github.com/vinberg88/pop-os-wsl
+      ///////////////////////////          
+         /////////////////////             Liunx Desktop - KDE desktop - POP_OS 24.04 LTS - POP OS - POP-OS
+             ///////////// 
+
+About PoP_OS 76 - https://pop.system76.com
+
+Pop!_OS is an operating system for STEM and creative professionals
+who use their computer as a tool to discover and create.
+Unleash your potential on secure, reliable open source software.
+Based on your exceptional curiosity, we sense you have a lot of it. 
+Pop!_OS is designed for fast navigation, easy workspace 
+organization, and fluid, convenient workflow. Your operating
+system should encourage discovery, not obstruct it.
+
+About KDE Plasma - https://kde.org
+
+KDE is the next generation desktop for Linux. 
+Use KDE software to surf the web, keep in touch
+with colleagues, friends and family, manage your
+files, enjoy music and videos; and get creative and
+productive at work. The KDE community develops
+and maintains more than 200 applications which
+run on any Linux desktop, and often other platforms too.
+
+Want more stuff about Linux and WSL: https://github.com/vinberg88
+
+-------------------------------------------------------------
+
+LETST START INSTALL OF KDE AND POP_OS 24.04 LTS FOR WSL.
+
+Downdload POP OS 24.04 LTS HERE: https://github.com/vinberg88/pop-os-wsl
+
+Press the blue Icon and that will setup user and password - DONE. 
+
+-------------------------------------------------------------
+
+Please Update after install: sudo apt update && sudo apt upgrade
+
+--------------------------------------------
+
+FIX DBUS PROBLEM SO Pop_OS 24.04 LTS IS WORKING FASTER.
+
+sudo apt install dbus systemd-boot* systemd dbus-broker* dbus-daemon* systemd-resolved* systemd-u* systemd-ukify* dialog rsync
+
+sudo systemctl disable dbus-broker
+sudo systemctl enable dbus
+
+sudo mkdir -p /run/dbus
+sudo chown messagebus:messagebus /run/dbus
+
+--------------------------------------------
+
+Install programs for POP_OS:
+
+sudo apt install bash git npm wget curl dbus* pipx software-properties-common* pipewire-pulse pipewire-alsa pipewire-audio pipewire* xorg* -y
+sudo apt install sddm* -y
+sudo systemctl set-default graphical
+
+-------------------------------------------------------------
+
+Install Fastfetch - like Neofetch but more FUN - KDE and POP OS 24.04 LTS 
+
+wget https://github.com/fastfetch-cli/fastfetch/releases/download/2.67.1/fastfetch-linux-amd64.deb
+sudo apt install .//fastfetch-linux-amd64.deb
+
+To test fastfetch, copy and paste this in terminal: fastfetch
+
+             /////////////                 Thank you for install KDE and POP_OS 24.04 LTS - WSL - ❤️
+         /////////////////////
+      ///////*767////////////////          OS: Pop!_OS 24.04 LTS x86_64
+    //////7676767676*//////////////
+   /////76767//7676767//////////////       Host: Windows Subsystem for Linux - Pop_OS_24.04 (2.9.9.0)
+  /////767676///*76767///////////////
+ ///////767676///76767.///7676*///////     Kernel: Linux 6.18.40.1-microsoft-standard-WSL2
+/////////767676//76767///767676////////
+//////////76767676767////76767/////////    FIND ME HERE - https://github.com/vinberg88
+///////////76767676//////7676//////////
+////////////,7676,///////767///////////    EMAIL: mattiasvinberg@duck.com
+/////////////*7676///////76////////////
+///////////////7676////////////////////    OS: Windows 11 Pro for Workstations (25H2) x86_64
+ ///////////////7676///767////////////
+  //////////////////////'////////////      Windows 11 - WSLg - We have sound =)
+   //////.7676767676767676767,//////
+    /////767676767676767676767/////        Download POP_OS 24.04 LTS - WSL image: https://github.com/vinberg88/pop-os-wsl
+      ///////////////////////////          
+         /////////////////////             Liunx Desktop - KDE desktop - POP_OS 24.04 LTS - POP OS - POP-OS
+             ///////////// 
+
+-------------------------------------------------------------
+
+Install Chrome - Best Browser 2026 for Linux.
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
+
+-------------------------------------------------------------
+
+Install Blanket if you Want! - Listen to Sounds when you HACK - POPOS 24.04 LTS AND KDE DESKTOP - 2026
+
+sudo add-apt-repository ppa:apandada1/blanket
+sudo apt update
+sudo apt install blanket
+
+-------------------------------------------------------------
+
+Install gimp so we can paint via POP!_PO 76 24.04 LTS - KDE
+
+sudo apt install gimp
+
+-------------------------------------------------------------
+
+LibreOffice is for Work - TEXT - Install it NOW for POP OS 24.04 LTS and KDE Desktop - 2026
+
+sudo apt install libreoffice
+
+-------------------------------------------------------------
+
+How to Install Visual Studio Code from Microsoft - POP_OS 24.04 LTS and KDE Desktop 2026
+
+sudo apt update
+sudo apt install curl* gpg* apt-transport-https*
+
+curl -fsSL https://packages.microsoft.com/keys/microsoft.asc | sudo gpg --dearmor -o /usr/share/keyrings/microsoft.gpg
+
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/microsoft.gpg] https://packages.microsoft.com/repos/code stable main" | sudo tee /etc/apt/sources.list.d/vscode.list
+
+sudo apt update
+sudo apt install code
+
+-------------------------------------------------------------
+
+Time to install KDE Plasma for POP_OS 24.04 LTS.
+
+sudo apt install kde-standard
+sudo apt install plasma*
+sudo apt install kde*
+
+-------------------------------------------------------------
+
+Install Tasksel for POP_OS 24.04
+
+Paste in terminal: sudo apt install tasksel
+
+Run tasksel: sudo tasksel 
+
+And select KDE Plasma and Debian desktop Environment.
+
+-------------------------------------------------------------
+
+             /////////////                 Thank you for install KDE and POP_OS 24.04 LTS - WSL - ❤️
+         /////////////////////
+      ///////*767////////////////          OS: Pop!_OS 24.04 LTS x86_64
+    //////7676767676*//////////////
+   /////76767//7676767//////////////       Host: Windows Subsystem for Linux - Pop_OS_24.04 (2.9.9.0)
+  /////767676///*76767///////////////
+ ///////767676///76767.///7676*///////     Kernel: Linux 6.18.40.1-microsoft-standard-WSL2
+/////////767676//76767///767676////////
+//////////76767676767////76767/////////    FIND ME HERE - https://github.com/vinberg88
+///////////76767676//////7676//////////
+////////////,7676,///////767///////////    EMAIL: mattiasvinberg@duck.com
+/////////////*7676///////76////////////
+///////////////7676////////////////////    OS: Windows 11 Pro for Workstations (25H2) x86_64
+ ///////////////7676///767////////////
+  //////////////////////'////////////      Windows 11 - WSLg - We have sound =)
+   //////.7676767676767676767,//////
+    /////767676767676767676767/////        Download POP_OS 24.04 LTS - WSL image: https://github.com/vinberg88/pop-os-wsl
+      ///////////////////////////          
+         /////////////////////             Liunx Desktop - KDE desktop - POP_OS 24.04 LTS - POP OS - POP-OS
+             ///////////// 
+
+-------------------------------------------------------------
+
+Fix IP problem for X410. Cant find screen problem. Look for ip adress in windows terminal / PowerShell: ipconfig
+
+FIRST OPEN POWERSHELL AND TYPE: ipconfig
+
+Last lines are IP-number for WSL.
+
+SAVE IP HERE FOR WSL FROM POWERSHELL: 172.30.16.1
+
+GO BACK TO POP_OS 24.04 LTS Terminal AND COPY AND PASTE THIS IN TERMINAL.
+
+sudo systemctl unmask systemd-resolved.service
+sudo systemctl enable systemd-resolved.service
+
+sudo ls -l /etc/resolv.conf
+sudo mv /etc/resolv.conf /tmp/resolv.conf.bak
+sudo nano /etc/resolv.conf
+
+nameserver 172.30.16.1 <-- put your ip here from powershell and add nameserver.
+
+sudo chattr +i /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+sudo cat /etc/resolv.conf
+
+DONE - alot of problem fixed for POP OS 24.04 LTS and KDE desktop - 2026
+
+-------------------------------------------------------------
+
+Copy and paste in terminal for POP OS 24.04 System 79 and KDE desktop - 2026
+
+xdg-user-dirs-update
+sudo systemctl set-default multi-user.target
+sudo systemctl set-default graphical.target
+sudo ln -fs /usr/lib/systemd/system/graphical.target /etc/systemd/system/default.target
+
+-------------------------------------------------------------
+
+Copy and paste in terminal for POP OS 24.04 and KDE desktop
+
+Type this in terminal and put your username there - sudo loginctl enable-linger adolf
+
+-------------------------------------------------------------
+
+Copy and paste in terminal for POP_OS and KDE desktop
+
+Copy this and paste in terminal: sudo nano ~/.wsl_x11_env
+
+Then add this script to terminal
+
+export XDG_CURRENT_DESKTOP=ubuntu:GNOME
+export XDG_SESSION_DESKTOP=ubuntu
+export DESKTOP_SESSION=ubuntu
+export GNOME_SHELL_SESSION_MODE=ubuntu
+
+export XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+export XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+export XDG_MENU_PREFIX=gnome-
+
+export XDG_SESSION_TYPE=x11
+export XDG_SESSION_CLASS=user
+export GDK_BACKEND=x11
+
+export LIBGL_ALWAYS_SOFTWARE=1
+
+------------------------------------------------------
+
+Reboot POP_OS 24.04 LTS - Reboot POP_OS 24.04 LTS - Reboot POP_OS 24.04 LTS
+
+------------------------------------------------------
+
+TIME TO START KDE VIA X410 AND POP_OS 24.04 LTS - 2026
+
+NOTE: FIRST START X410 SERVER THEN YOU START POP-OS TERMINAL
+
+Paste in terminal: export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+Paste in terminal: . ~/.wsl_x11_env
+
+Paste in terminal: dbus-launch startplasma-x11
+
+IT TAKE SOME TIME TO START KDE VIA POP OS 24.04 SO JUST WAIT - KDE WORKS NICE UNDER POP_OS and WSL.
+------------------------------------------------------
+
+             /////////////                 Thank you for install KDE and POP_OS 24.04 LTS - WSL - ❤️
+         /////////////////////
+      ///////*767////////////////          OS: Pop!_OS 24.04 LTS x86_64
+    //////7676767676*//////////////
+   /////76767//7676767//////////////       Host: Windows Subsystem for Linux - Pop_OS_24.04 (2.9.9.0)
+  /////767676///*76767///////////////
+ ///////767676///76767.///7676*///////     Kernel: Linux 6.18.40.1-microsoft-standard-WSL2
+/////////767676//76767///767676////////
+//////////76767676767////76767/////////    FIND ME HERE - https://github.com/vinberg88
+///////////76767676//////7676//////////
+////////////,7676,///////767///////////    EMAIL: mattiasvinberg@duck.com
+/////////////*7676///////76////////////
+///////////////7676////////////////////    OS: Windows 11 Pro for Workstations (25H2) x86_64
+ ///////////////7676///767////////////
+  //////////////////////'////////////      Windows 11 - WSLg - We have sound =)
+   //////.7676767676767676767,//////
+    /////767676767676767676767/////        Download POP_OS 24.04 LTS - WSL image: https://github.com/vinberg88/pop-os-wsl
+      ///////////////////////////          
+         /////////////////////             Liunx Desktop - KDE desktop - POP_OS 24.04 LTS - POP OS - POP-OS
+             ///////////// 
+
+Regards Mattias VInberg - POP_OS 24.04 - SYSTEM 76 - KDE - x410 - WSL - Linux - Microsoft - 2026 - Sweden
+
+------------------------------------------------------
